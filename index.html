@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--<< Required meta tags >>-->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--<< Title >>-->
+   <title>POOBALAN-VIDEO EDITOR & GRAPHIC DESIGNER</title>
+   <!--<< Favcion >>-->
+   <link rel="shortcut icon" href="assets/logo/favicon.png">
+   <!--<< Bootstrap min.css >>-->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!--<< Aos animation css >>-->
+   <link rel="stylesheet" href="css/aos.css">
+   <!--<< Main.css >>-->
+   <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<!--<< Preloader >>-->
+<div class="preloader__matias">
+   <div class="box text-center">
+      <div class="matias mb-10">
+         <img src="banner/banner-man.png" alt="img">
+      </div>
+      <span class="fz-30 mati fw-600 text-uppercase">
+         POOBALAN
+      </span>
+   </div>
+</div>
+<!--<< Preloader >>--> 
+   
+
+
+<!--<< banner >>-->
+<section class="banner__section">
+   <!--<< Header v-1 >>-->
+   <header class="header-section">
+      <div class="container">
+         <div class="header-wrapper">
+            <div class="main__logo">
+               <a href="index.html" class="logo">
+                  
+               </a>
+            </div>
+            <ul class="main-menu">
+               <li>
+                  <a href="index.html">
+                     Home
+                  </a>
+               </li>
+               <li>
+                  <a href="#about">
+                     About
+                  </a>
+               </li>
+               <li>
+                  <a href="#prot">
+                     Work
+                  </a>
+               </li>
+               <li>
+                  <a href="#services">
+                     Skills
+                  </a>
+                 
+               </li>
+              
+               <li>
+                  <a href="#footerSection">
+                     Contact
+                  </a>
+               </li>
+            </ul>
+            <div class="menu__components d-flex align-items-center">
+               <a href="#footerSection" class="d-flex fw-500 cmn--btn align-items-center gap-2">
+                  <span class="get__text">
+                     Let's Talk
+                  </span>
+                  <span>
+                     <i class="bi bi-arrow-right fz-20"></i>                       
+                  </span>
+               </a>
+               <div class="header-bar d-lg-none">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="remove__click">
+                  <i class="bi bi-list"></i>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!--<< Header v-1 >>-->
+   <div class="container">
+      <div class="row g-4">
+         <div class="col-lg-8">
+            <div class="banner__content">
+               <a href="#0" class="bn__currently">
+                  
+               </a>
+               <h1>
+                 <span class="hone">Creative visual</span>
+                  <span class="d-block designers" data-text="Designer">Designer & </span>
+                  <span class="d-block designers" data-text="Editor">Editor</span>
+               </h1>
+               <div class="video__area" style="position: relative; display: inline-block; text-align: center;">
+                  <!-- Arrow Image -->
+                  <img 
+                    src="banner/bn-arrow.png" 
+                    class="vid__arrow" 
+                    alt="img" 
+                    style="
+                      width: 100px; 
+                      position: absolute; 
+                      top: 10%; 
+                      left: 20px; 
+                      transform: translateY(-50%); 
+                      z-index: 0;
+                    "
+                  >
+                
+                  <!-- “Work Process” Text (aligned so the arrow points to it) -->
+                  <span
+                    class="proces"
+                    style="
+                      position: absolute;
+                      top: 10%;
+                      left: 110px;
+                      transform: translateY(-50%);
+                      font-size: 18px;
+                      color: #fff;
+                      font-weight: bold;
+                      z-index: 5;
+                    "
+                  >
+                   
+                  </span>
+                
+                  <!-- Clickable Video Container -->
+                  <div 
+                    class="video-container" 
+                    onclick="playVideo()" 
+                    style="
+                      display: block; 
+                      position: relative; 
+                      width: 560px; 
+                      height: 315px; 
+                      background: url('') no-repeat center center; 
+                      background-size: cover; 
+                      cursor: pointer;
+                      margin-left: auto; 
+                      margin-right: auto;
+                    "
+                  >
+                    <!-- Play Button -->
+                    <div 
+                      class="play-button" 
+                      style="
+                        position: absolute; 
+                        top: 50%; 
+                        left: 50%; 
+                        transform: translate(-50%, -50%); 
+                        font-size: 40px; 
+                        color: white; 
+                        cursor: pointer;
+                      "
+                    >
+                      ▶  Work Process
+                    </div>
+                  </div>
+                </div>
+                
+                <script>
+                  function playVideo() {
+                    var container = document.querySelector('.video-container');
+                    container.innerHTML = `
+                      <iframe 
+                        src="https://www.youtube.com/embed/uOr-OIKGcEQ?autoplay=1&si=6QuGZiRXlEJm3mM9" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen 
+                        style="width: 100%; height: 100%;"
+                      ></iframe>
+                    `;
+                    // Remove background image
+                    container.style.background = 'none';
+                  }
+                </script>
+                
+          
+            </div>
+         </div>
+         <div class="col-lg-4">
+            <div class="banner__thumb" data-aos="fade-up-right" data-aos-duration="300">
+               <img src="mann.png" alt="man-img" style="width: 600px; height: 850px;">
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="banner__leftinfo">
+      <div class="left__infomobile">
+         <a href="#0">
+            <img src="banner/dial.png" alt="img">
+         </a>
+         <a href="#0">
+            +91 8056 1 80765
+         </a>
+      </div>
+      <div class="right__infoscroll">
+         <a href="#prot" class="scroll">
+            scroll down
+         </a>
+         <a href="#prot" class="scroll__bar">
+            <img src="banner/scroll-down.png" alt="img">
+         </a>
+      </div>
+   </div>
+
+</section>
+<!--<< banner >>-->
+
+
+
+<!--<< about personal >>-->
+<section class="about__section pt-120 pb-120" id="about">
+   <div class="container">
+      <div class="personal__head text-center">
+         <img src="about/section-star.png" class="mb-30" alt="star"><br>
+        
+         <p class="descrp" style="font-size: 20px;">
+            Creative, meticulous and dedicated Video Editor with an excellent eye for detail,
+            unparalleled track record of employer satisfaction and a deep passion for film. High
+            level of proficiency in video editing software particularly Adobe Premiere, Apple Final
+            Cut and Davinci Resolve and great experience in video pre and post production.
+            Proven performer during high pressure situations and ability to handle multiple
+            projects. In 7 years in the industry, I have acquired valuable experience in video
+            editing, animation, providing sound effects and music dialogue.
+            Looking for a career in your esteemed organization that gives me scope to enrich my
+            talent and to work in projects that can test and enhance my skills in future
+            technologies so that I can contribute towards the success of the organization.
+        </p>
+        
+      </div>
+      <div class="singletab">
+         <ul class="tablinks">
+             <li class="nav-links active">
+                 <button class="tablink">About Me</button>
+             </li>
+             <li class="nav-links">
+                 <button class="tablink">Experience</button>
+             </li>
+             <li class="nav-links">
+                 <button class="tablink">Education</button>
+             </li>
+             
+         </ul>
+         <div class="tabcontents">
+             <div class="tabitem active">
+               <div class="about__v1wrap">
+                  <div class="row g-4 align-items-lg-start align-items-center">
+                     <div class="col-lg-5">
+                        <div class="about__onethumb" data-aos="zoom-in" data-aos-duration="500">
+                           <img src="about/man2.png" alt="img">
+                        </div>
+                     </div>
+                     <div class="col-lg-7">
+                        <div class="about__onecontent">
+                           <h2 class="h2-head" data-aos="fade-up"
+                           data-aos-duration="500">
+                              Personal Info
+                           </h2>
+                          
+                           <div class="about__contactwrap">
+                              <div class="row g-4">
+                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6" data-aos="zoom-in">
+                                    <div class="abox">
+                                       <div class="about__contbox__item">
+                                          <span class="ptext fz-18 mb-20 d-block">
+                                             Email
+                                          </span>
+                                          <a href="#0">
+                                             poobalan7294@gmail.com
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6" data-aos="zoom-in">
+                                    <div class="abox">
+                                       <div class="about__contbox__item">
+                                          <span class="ptext fz-18 mb-20 d-block">
+                                             Phone
+                                          </span>
+                                          <a href="#0">
+                                            +91 8056 1 80765
+
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6" data-aos="zoom-in">
+                                    <div class="abox">
+                                       <div class="about__contbox__item">
+                                          <span class="ptext fz-18 mb-20 d-block">
+                                             Address
+                                          </span>
+                                          <a href="#0">
+                                             Chennai,Tamilnadu
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+             <div class="tabitem">
+               <div class="about__v1wrap">
+                  <div class="row g-4 align-items-lg-start align-items-center">
+                     <div class="col-lg-5">
+                        <div class="about__onethumb">
+                           <img src="about/personal-infothumb.png" alt="img">
+                        </div>
+                     </div>
+                     <div class="col-lg-7">
+                        <div class="about__onecontent">
+                           <h2>
+                            Experience
+                           </h2>
+                           <p>
+                              7 Years ExperienceS   </p>
+                           <div class="exprience__box mt-30">
+                              <div class="exri__item">
+                                 <span class="fz-18 fw-500 base">
+                                    AUG 2021 - TILL DATE
+
+                                 </span>
+                                 <div class="expri__cont">
+                                    <h4 class="mb-15 text-white">
+                                       TICK NETWORK (GIRI INITIATIVE)
+                                    </h4>
+                                    <p class="fz-18 pra d-block">
+                                       Team Leader – Graphic Design & Video Editing
+
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="exri__item">
+                                 <span class="fz-18 fw-500 base">
+                                    FEB 2018 - JUNE 2021
+                                 </span>
+                                 <div class="expri__cont">
+                                    <h4 class="mb-15 text-white">
+                                       VENPER ACADEMY
+                                    </h4>
+                                    <p class="fz-18 pra d-block">
+                                       VIDEO EDITOR & GRAPHIC DESIGNER
+
+                                    </p>
+                                 </div>
+                              </div>
+                          
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+             <div class="tabitem">
+               <div class="about__v1wrap">
+                  <div class="row g-4 align-items-lg-start align-items-center">
+                     <div class="col-lg-5">
+                        <div class="about__onethumb">
+                           <img src="about/man2.png" alt="img">
+                        </div>
+                     </div>
+                     <div class="col-lg-7">
+                        <div class="about__onecontent">
+                           <h2>
+                              My Education
+                           </h2>
+                          
+                           <div class="exprience__box mt-30">
+                              <div class="exri__item">
+                                 <span class="fz-18 fw-500 base">
+                                    2015 - 2018
+                                 </span>
+                                 <div class="expri__cont">
+                                    <h4 class="mb-15 text-white">
+                                       B.Sc
+                                    </h4>
+                                    <p class="fz-18 pra d-block">
+                                       Visual Communication
+                                    </p>
+                                 </div>
+                              </div>
+                             
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+             <div class="tabitem">
+               <div class="about__v1wrap">
+                  <div class="row g-4 align-items-lg-start align-items-center">
+                     <div class="col-lg-5">
+                        <div class="about__onethumb">
+                           <img src="about/personal-infothumb.png" alt="img">
+                        </div>
+                     </div>
+                     <div class="col-lg-7">
+                        <div class="about__onecontent">
+                           <h2>
+                              My Skills
+                           </h2>
+                          
+                           <div class="about__contactwrap">
+                              <div class="row g-4">
+                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                    <div class="abox myskill__item">
+                                       <div class="thumb">
+                                          <img src="about/figma.png" alt="img">
+                                       </div>
+                                       <div class="mys">
+                                          <span class="ptext fz-18 mb-15 d-block">
+                                             Figma
+                                          </span>
+                                          <h1 class="fw-600">
+                                             90%
+                                          </h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                    <div class="abox myskill__item">
+                                       <div class="thumb">
+                                          <img src="about/word.png" alt="img">
+                                       </div>
+                                       <div class="mys">
+                                          <span class="ptext fz-18 mb-15 d-block">
+                                             Wordpress
+                                          </span>
+                                          <h1 class="fw-600">
+                                             95%
+                                          </h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                    <div class="abox myskill__item">
+                                       <div class="thumb">
+                                          <img src="about/html.png" alt="img">
+                                       </div>
+                                       <div class="mys">
+                                          <span class="ptext fz-18 mb-15 d-block">
+                                             HTML
+                                          </span>
+                                          <h1 class="fw-600">
+                                             85%
+                                          </h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                    <div class="abox myskill__item">
+                                       <div class="thumb">
+                                          <img src="about/boot.png" alt="img">
+                                       </div>
+                                       <div class="mys">
+                                          <span class="ptext fz-18 mb-15 d-block">
+                                             Bootstrap
+                                          </span>
+                                          <h1 class="fw-600">
+                                             97%
+                                          </h1>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+             </div>
+         </div>
+     </div>
+   </div>
+</section>
+<!--<< about personal >>-->
+
+
+
+<!--<< project one >>-->
+<section class="project__section pt-120 pb-120" id="prot">
+   <div class="container">
+      <div class="project__head text-center">
+         <span class="common__sub" data-aos="fade-down"
+         data-aos-duration="1000">
+           Complete Project 
+         </span>
+         <h2 class="fw-500" data-aos="fade-down"
+         data-aos-duration="2000">
+           
+         </h2>
+      </div>
+      <div class="row g-4">
+         <div class="col-lg-6 col-md-6">
+            <div class="project__wrapone">
+               <div class="project__item cus__mb60" data-aos="fade-up"
+         data-aos-duration="1000">
+                  <a href="post 4.jpg" class="thumb mb-30 imgc">
+                     <img src="post 4.jpg" alt="img">
+                     
+                  </a>
+                  <div class="content d-flex align-items-center justify-content-between gap-2">
+                        <a class="left__cont">
+                        <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
+                           Stunning
+                        </span>
+                        <h3>
+                           Poster Design
+                        </h3>
+                     </a>
+                     <div class="icon-group d-flex gap-2">
+                     
+                        <a href="Shri Kota DP 8 copy.png" class="common__icon imgc">
+                          <i class="bi bi-arrow-up-right"></i>
+                        </a>
+                  
+                        <a href="26.9.23.jpg" class="common__icon imgc">
+                          <i class="bi bi-arrow-up-right"></i>
+                        </a>
+                        <a href="Christmas.jpg" class="common__icon imgc">
+                           <i class="bi bi-arrow-up-right"></i>
+                        </a>
+                         <a href="Sample 1.jpg" class="common__icon imgc">
+                           <i class="bi bi-arrow-up-right"></i>
+                         </a>
+                         <a href="3 insta.jpg" class="common__icon imgc">
+                           <i class="bi bi-arrow-up-right"></i>
+                         </a>
+                      </div>
+                  </div>
+               </div>
+               <div class="project__item cus__mb60" data-aos="fade-up"
+         data-aos-duration="1000">
+                  <a href="brochure 1.jpg" class="thumb mb-30 imgc">
+                     <img src="brochure 1.jpg" alt="img">
+                  </a>
+                  <div class="content d-flex align-items-center justify-content-between gap-2">
+                        <a class="left__cont">
+                        <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
+                           Product Design
+                        </span>
+                        <h3>
+                          Brochure
+                        </h3>
+                     </a>
+                     <div class="icon-group d-flex gap-2">
+                     <a href="brochure 1.jpg" class="common__icon imgc">
+                        <i class="bi bi-arrow-up-right"></i>
+                     </a>
+                     <a href="brochure.jpg" class="common__icon imgc">
+                        <i class="bi bi-arrow-up-right"></i>
+                     </a>
+                     <a href="brochure 2 (1).jpg" class="common__icon imgc">
+                        <i class="bi bi-arrow-up-right"></i>
+                     </a>
+                   
+                     </div>
+                  </div>
+               </div>
+              
+
+               <div class="project__item" data-aos="fade-up"
+               data-aos-duration="2200">
+                        <a href="pro6.jpg" class="thumb mb-30 imgc">
+                           <img src="pro6.jpg" alt="img">
+                        </a>
+                        <div class="content d-flex align-items-center justify-content-between gap-2">
+                              <a class="left__cont">
+                              <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
+                                Unique
+                              </span>
+                              <h3>
+                                 Logo Design
+                              </h3>
+                           </a>
+                           <div class="icon-group d-flex gap-2">
+                              <a href="Tick.jpg" class="common__icon imgc">
+                                 <i class="bi bi-arrow-up-right"></i>
+                              </a>
+                           <a href="pro6.jpg" class="common__icon imgc">
+                              <i class="bi bi-arrow-up-right"></i>
+                           </a>
+                           <a href="Artboard 2 copy 3@2x.png" class="common__icon imgc">
+                              <i class="bi bi-arrow-up-right"></i>
+                           </a>
+                           <a href="DP gamer.jpg" class="common__icon imgc">
+                              <i class="bi bi-arrow-up-right"></i>
+                           </a>
+                           <a href="Artboard 11@2x.png" class="common__icon imgc">
+                              <i class="bi bi-arrow-up-right"></i>
+                           </a>
+                           </div>
+                        </div>
+                     </div>
+            </div>
+            
+         </div>
+         
+         <div class="col-lg-6 col-md-6">
+            <div class="project__wraptwo">
+               <div class="project__item cus__mb60" data-aos="fade-up"
+         data-aos-duration="2200">
+                  <a href="pro1.png" class="thumb mb-30 imgc">
+                     <img src="pro1.png" alt="img">
+                  </a>
+                  <div class="content d-flex align-items-center justify-content-between gap-2">
+                     <a class="left__cont">
+                        <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
+                           Creative
+                        </span>
+                        <h3>
+                          Flyers
+                        </h3>
+                     </a>
+                     <div class="icon-group d-flex gap-2">
+                     <a href="pro1.png" class="common__icon imgc">
+                        <i class="bi bi-arrow-up-right"></i>
+                     </a>
+                     <a href="flyer.jpeg" class="common__icon imgc">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                      <a href="7.jpg" class="common__icon imgc">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    
+                      <a href="6.jpg" class="common__icon imgc">
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                    
+                    
+                      </div>
+
+                      
+                  </div>
+                  <div class="project__item" data-aos="fade-up"
+                  data-aos-duration="2200">
+                           <a href="pro6.jpg" class="thumb mb-30 imgc">
+                            
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/PMKVSIy3YP8" frameborder="0" allowfullscreen></iframe>
+                           </a>
+                           <div class="content d-flex align-items-center justify-content-between gap-2">
+                                 <a class="left__cont">
+                                 <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
+                                   Passion
+                                 </span>
+                                 <h3>
+                                    Direction and Script Writing
+                                 </h3>
+                              </a>
+                              
+                              <div class="icon-group d-flex gap-2">
+                                 
+                              </div>
+                           </div>
+                           
+                        </div>
+             <!-- Carousel Container (with AOS attributes if you use AOS) -->
+  <div 
+  data-aos="fade-up" 
+  data-aos-duration="2200"
+  style="position: relative; overflow: hidden; width: 100%; height: 315px;"
+>
+  <!-- Track Wrapper -->
+  <div 
+    id="carouselTrack"
+    style="display: flex; transition: transform 0.5s ease-in-out;"
+  >
+    <!-- 1) First Video -->
+    <div style="min-width: 100%; box-sizing: border-box;">
+      <a href="pro6.jpg" style="display: block; margin-bottom: 30px;">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/uUupW5qPpGE"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="width: 100%; height: 315px;"
+        ></iframe>
+      </a>
+    </div>
+
+    <!-- 2) Second Video -->
+    <div style="min-width: 100%; box-sizing: border-box;">
+      <a href="pro6.jpg" style="display: block; margin-bottom: 30px;">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/UvyP4bQ1IDo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="width: 100%; height: 315px;"
+        ></iframe>
+      </a>
+    </div>
+
+    <!-- 3) Third Video -->
+    <div style="min-width: 100%; box-sizing: border-box;">
+      <a href="pro6.jpg" style="display: block; margin-bottom: 30px;">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/U74N2F6NWf4"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="width: 100%; height: 315px;"
+        ></iframe>
+      </a>
+    </div>
+
+    <!-- 4) Fourth Video -->
+    <div style="min-width: 100%; box-sizing: border-box;">
+      <a href="pro6.jpg" style="display: block; margin-bottom: 30px;">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/gM7I1vnDLPo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="width: 100%; height: 315px;"
+        ></iframe>
+      </a>
+    </div>
+  </div>
+
+  <!-- Carousel Controls (Previous / Next) -->
+  <div 
+    style="
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    "
+  >
+    <button 
+      onclick="prevSlide()"
+      style="background-color: rgba(0,0,0,0.5); border: none; color: white; padding: 5px 10px; cursor: pointer;"
+    >◀</button>
+    <button 
+      onclick="nextSlide()"
+      style="background-color: rgba(0,0,0,0.5); border: none; color: white; padding: 5px 10px; cursor: pointer;"
+    >▶</button>
+  </div>
+</div>
+
+<!-- Content Below Carousel -->
+<div 
+  style="
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+  "
+>
+  <a style="text-decoration: none;">
+    <span style="display: block; text-transform: uppercase; margin-bottom: 0.5rem;">
+      Creative
+    </span>
+    <h3 style="margin: 0;">Photography</h3>
+  </a>
+  <div style="display: flex; gap: 0.5rem;">
+    <!-- icon group if needed -->
+  </div>
+</div>
+
+<!-- Inline JavaScript for Carousel -->
+<script>
+  const track = document.getElementById('carouselTrack');
+  const items = track.querySelectorAll('div[style*="min-width"]');
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const itemWidth = items[0].clientWidth;
+    track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex > 0) ? currentIndex - 1 : items.length - 1;
+    updateCarousel();
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex < items.length - 1) ? currentIndex + 1 : 0;
+    updateCarousel();
+  }
+
+  window.addEventListener('load', updateCarousel);
+  window.addEventListener('resize', updateCarousel);
+</script>
+
+ <!-- Carousel Container -->
+ <div style="position: relative; overflow: hidden; width: 640px; height: 360px;">
+   <!-- Carousel Track -->
+   <div id="carouselTrack" style="display: flex; transition: transform 0.5s ease-in-out;">
+     
+     <!-- 1) First Video Slide -->
+     <div style="min-width: 640px; box-sizing: border-box;">
+       <video controls width="640" height="360">
+         <source src="C:\Users\HARSHINI\Downloads\video_20250124_151931.mp4" type="video/mp4">
+         <!-- Fallback Message -->
+         Your browser does not support the video tag.
+       </video>
+     </div>
+
+     <!-- 2) Second Video Slide -->
+     <div style="min-width: 640px; box-sizing: border-box;">
+       <video controls width="640" height="360">
+         <source src="C:\Users\HARSHINI\Downloads\vid_1.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+       </video>
+     </div>
+   </div>
+
+   <!-- Carousel Controls -->
+   <div
+     style="
+       position: absolute;
+       top: 50%;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       transform: translateY(-50%);
+     "
+   >
+     <button
+       onclick="prevSlide()"
+       style="background-color: rgba(0,0,0,0.5); border: none; color: white; padding: 5px 10px; cursor: pointer;"
+     >
+       ◀
+     </button>
+     <button
+       onclick="nextSlide()"
+       style="background-color: rgba(0,0,0,0.5); border: none; color: white; padding: 5px 10px; cursor: pointer;"
+     >
+       ▶
+     </button>
+   </div>
+ </div>
+ <a style="text-decoration: none;">
+   <span style="display: block; text-transform: uppercase; margin-bottom: 0.5rem;">
+   Stylish
+   </span>
+   <h3 style="margin: 0;">Reels</h3>
+ </a>
+ <div style="display: flex; gap: 0.5rem;">
+   <!-- icon group if needed -->
+ </div>
+</div>
+
+ <!-- Carousel Logic -->
+ <script>
+   let currentIndex = 0;
+   const track = document.getElementById('carouselTrack');
+   const items = track.children;
+
+   function updateCarousel() {
+     const itemWidth = items[0].clientWidth;
+     track.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+   }
+
+   function prevSlide() {
+     currentIndex = (currentIndex > 0) ? currentIndex - 1 : items.length - 1;
+     updateCarousel();
+   }
+
+   function nextSlide() {
+     currentIndex = (currentIndex < items.length - 1) ? currentIndex + 1 : 0;
+     updateCarousel();
+   }
+
+   window.addEventListener('resize', updateCarousel);
+   window.addEventListener('load', updateCarousel);
+ </script>
+
+                         
+                        
+               </div>
+
+
+
+               
+               
+            
+                 
+                 
+               </div>
+              
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+     
+     
+   </div>
+</section>
+<!--<< project one >>-->
+
+
+
+
+<!--<< service >>-->
+<section id="services" class="service__section overhid pt-120 pb-120">
+   <div class="container">
+      <div class="project__head text-center">
+         <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
+           My Expertise
+         </span>
+         <h2 class="fw-500" data-aos="fade-up" data-aos-duration="1200">
+            Software  Skills
+         </h2>
+      </div>
+      <div class="service__uniquewrap">
+         <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1000">
+            <div class="left__service">
+               <div class="serial__adjust">
+                  <span>
+                     01
+                  </span>
+                  <div class="cont">
+                     <h5>
+                      
+                     </h5>
+                     <h2>
+                       <a>
+                           Photoshop
+                        </a>
+                     </h2>
+                  </div>
+               </div>
+               <p class="pra">
+                  A powerful image editing tool used for photo retouching, graphic design, and digital art creation. It offers advanced features like layers, masks, and a wide range of filters.     </p>
+            </div>
+            <a class="common__icon">
+               <img src="Artboard 2@2x.png" alt="Icon Image" style="width: 25px; height: 25px;">
+            </a>
+            
+         </div>
+         <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1200">
+            <div class="left__service">
+               <div class="serial__adjust">
+                  <span>
+                     02
+                  </span>
+                  <div class="cont">
+                     <h5>
+                      
+                     </h5>
+                     <h2>
+                       <a>
+                           Illustrator
+                        </a>
+                     </h2>
+                  </div>
+               </div>
+               <p class="pra">
+                  A vector graphics editor used to create logos, illustrations, and scalable designs. It is ideal for precision-based artwork and supports infinite resizing without quality loss.     </p>
+           </div>
+
+            <a  class="common__icon">
+               <img src="Artboard 2_1@2x.png" alt="Icon Image" style="width: 25px; height: 25px;">
+            </a>
+         </div>
+         <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1400">
+            <div class="left__service">
+               <div class="serial__adjust">
+                  <span>
+                     03
+                  </span>
+                  <div class="cont">
+                     <h5>
+                
+                     </h5>
+                     <h2>
+                       <a>
+                           Indesign
+                        </a>
+                     </h2>
+                  </div>
+               </div>
+               <p class="pra">
+                  A desktop publishing software designed for creating layouts for books, magazines, brochures, and flyers. It excels in handling multi-page documents with advanced typography features.  </p>
+           </div>
+            <a  class="common__icon">
+               <img src="Artboard 2_2@2x.png" alt="Icon Image" style="width: 25px; height: 25px;">
+            </a>
+         </div>
+         <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1600">
+            <div class="left__service">
+               <div class="serial__adjust">
+                  <span>
+                     04
+                  </span>
+                  <div class="cont">
+                     <h5>
+                   
+                     </h5>
+                     <h2>
+                       <a>
+                           Adobe XD
+                        </a>
+                     </h2>
+                  </div>
+               </div>
+               <p class="pra">
+                  A user experience design tool used to create wireframes, prototypes, and user interfaces for websites and apps. It supports interactive design and collaborative workflows.    </p>
+           </div>
+            <a  class="common__icon">
+               <img src="Artboard 2_3@2x.png" alt="Icon Image" style="width: 25px; height: 25px;">
+            </a>
+         </div>
+         <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1800">
+            <div class="left__service">
+               <div class="serial__adjust">
+                  <span>
+                     05
+                  </span>
+                  <div class="cont">
+                     <h5>
+                     
+                     </h5>
+                     <h2>
+                       <a>
+                           Premiere Pro                        </a>
+                     </h2>
+                  </div>
+               </div>
+               <p class="pra">
+                  A professional video editing software used for cutting, editing, and enhancing video content. It supports multiple formats, advanced effects, and seamless integration with other Adobe tools.   </p>
+           </div>
+            <a  class="common__icon">
+               <img src="Artboard 2_4@2x.png" alt="Icon Image" style="width: 25px; height: 25px;">
+            </a>
+         </div>
+         <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1800">
+            <div class="left__service">
+               <div class="serial__adjust">
+                  <span>
+                     06
+                  </span>
+                  <div class="cont">
+                     <h5>
+                     
+                     </h5>
+                     <h2>
+                        <a>
+                           After effects                      </a>
+                     </h2>
+                  </div>
+               </div>
+               <p class="pra">
+                  A motion graphics and visual effects software used for creating animations, titles, and cinematic effects. It is widely used in film, TV, and online video production.  </p>
+           </div>
+            <a  class="common__icon">
+               <img src="Artboard 2_5@2x.png" alt="Icon Image" style="width: 25px; height: 25px;">
+            </a>
+         </div>
+      </div>
+   </div>
+</section>
+<!--<< service >>-->
+
+<!--<< process >>-->
+<section class="process__section pt-120 pb-120">
+   <div class="container">
+      <div class="project__head text-center">
+         <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
+           Working Process 
+         </span>
+         
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="500">
+         <div class="process__item">
+            <h2 class="white mb-24">
+               Concept
+            </h2>
+            <p class="mb-30 pra fz-18">
+             
+            </p>
+            <ul>
+               <li>
+                  Video Editor<br>
+                  Understand the project brief and objectives.<br>
+                  Collaborate with the team to plan the storyline, structure, and style of the video.<br>
+                  Gather references and determine the visual and auditory tone.
+
+
+
+               </li>
+               <li>
+                  
+Graphic Designer<br>
+Analyze the project requirements and target audience.
+<br>
+Brainstorm ideas and explore different visual styles, colors, and themes.<br>
+Create mood boards or sketches to present concepts.
+
+
+
+               </li>
+              
+            </ul>
+         </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="500">
+         <div class="process__item">
+            <h2 class="white mb-24">
+               Design
+            </h2>
+            <p class="mb-30 pra fz-18">
+              
+            </p>
+            <ul>
+               <li>
+                  Video Editor<br>
+                  Collect and organize raw footage, audio, and other assets.<br>
+                  Start editing by cutting, trimming, and arranging clips according to the script or plan.<br>
+                  Add effects, transitions, and animations to enhance the visual storytelling.
+
+
+
+
+               </li>
+               <li>
+                  
+Graphic Designer<br>
+Begin designing digital elements, such as logos, layouts, and illustrations.
+<br>
+Use design software (e.g., Adobe Illustrator, Photoshop) to create and refine visual compositions.
+<br>
+Integrate typography, color schemes, and branding elements.
+
+
+
+
+               </li>
+              
+            </ul>
+         </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="500">
+         <div class="process__item">
+            <h2 class="white mb-24">
+               Execute
+            </h2>
+            <p class="mb-30 pra fz-18">
+              
+            </p>
+            <ul>
+               <li>
+                  Video Editor<br>
+                  Finalize the video by polishing the edits, color grading, and syncing audio.
+                  <br>
+                  Export the video in the required format and resolution.
+<br>
+Deliver the final video to the client or team, making revisions if needed.
+
+
+
+
+
+
+               </li>
+               <li>
+                  
+Graphic Designer<br>
+Finalize designs by ensuring all elements align with the brief and brand guidelines.
+<br>
+Prepare files for production (e.g., print, digital platforms).
+
+<br>
+Present the completed designs to the client and make any necessary adjustments.
+
+
+
+
+               </li>
+              
+            </ul>
+         </div>
+        </div>
+      </div>
+   </div>
+</section>
+<!--<< process >>-->
+
+<!--<< Footer >>-->
+<footer id="footerSection" class="footer__section">
+
+   <div class="container">
+      <div class="footer__top pt-120 pb-120">
+         <div class="fl" data-aos="fade-up" data-aos-duration="1000">
+            Get In Touch
+         </div>
+         <div class="row g-4">
+            <div class="col-lg-6">
+               <div class="get__content">
+                  
+                  <a href="mailto:poobalan7294@gmail.com">poobalan7294@gmail.com</a><br>
+                  <a href="tel:8056180765">8056180765</a>
+                  
+               </div>
+            </div>
+            
+         </div>
+      </div>
+   </div>
+   <div class="footer__bottom cmn__bg">
+      <div class="container">
+         <div class="copyright">
+            <p class="white"> Copyright © 2025  All rights reserved.</p>
+           
+            <a href="#about" class="toparrow">
+               <i class="bi bi-arrow-up-short"></i>
+            </a>
+         </div>
+      </div>
+   </div>
+</footer>
+<!--<< Footer >>-->
+
+<!--<<  sub side bar custom >>-->
+<div class="subside__barmenu sub__contact">
+   <div class="remove__click d-flex justify-content-center align-items-center">
+      <i class="bi bi-x-lg"></i>
+   </div>
+   <div class="sub__contact__wrapper d-grid">
+      <a href="index.html" class="side-logo">
+        
+      </a>
+     
+      <div class="sub__contact-left d-grid">
+         <div class="sub__contac-item">
+            <div class="content">
+               <span class="address d-block">
+                  address
+               </span>
+               <span class="textp">
+                 Chennai,Tamilnadu
+               </span>
+            </div>
+         </div>
+         <div class="sub__contac-item">
+            <div class="content">
+               <span class="address d-block">
+                  email
+               </span>
+               <a href="javascript:void(0)" class="textp">
+                  poobalan7294@gmail.com
+               </a>
+            </div>
+         </div>
+         <div class="sub__contac-item">
+            <div class="content">
+               <span class="address d-block">
+                  call now
+               </span>
+               <a href="jasacript:void(0)" class="textp">
+                  8056180765
+               </a>
+            </div>
+         </div>
+      </div>
+     
+   </div>
+</div>
+<!--<<  sub side bar custom >>-->
+
+   <!--<< Scroll To Top >>-->
+   <div class="progress-wrap">
+      <svg
+         class="progress-circle svg-content"
+         width="100%"
+         height="100%"
+         viewBox="-1 -1 102 102"
+      >
+         <path fill="#c9f31d" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+      </svg>
+      <i class="bi bi-arrow-90deg-up title topping"></i>
+   </div>
+   <!--<< Scroll To Top >>-->
+
+   <!--<< Jquery Latest >>-->
+   <script src="js/jquery-3.7.0.min.js"></script>
+   <!--<< Viewport Js >>-->
+   <script src="js/viewport.jquery.js"></script>
+   <!--<< Bootstrap Js >>-->
+   <script src="js/bootstrap.min.js"></script>
+   <!--<< Aos animation Js >>-->
+   <script src="js/aos.js"></script>
+   <!--<< Nice Select Js >>-->
+   <script src="js/jquery.nice-select.min.js"></script>
+   <!--<< Swiper Slide Js >>-->
+   <script src="js/swiper-bundle.min.js"></script>
+   <!--<< Swiper Bundle Js >>-->
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <!--<< magnific popup Js >>-->
+   <script src="js/odometer.min.js"></script>
+   <!--<< Odometer js Js >>-->
+   <script src="js/wow.min.js"></script>
+   <!--<< Wow Animation js >>-->
+   <script src="js/main.js"></script>
+   <!--<< Main.js >>-->
+</body>
+</html>
